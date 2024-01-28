@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    height: 42px;
+    padding: 24px 32px 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 48px;
+}
+
+.btn-signin {
+    height: 31px;
+    width: 75px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    background-color: #E50914;
+}
