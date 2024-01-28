@@ -6,6 +6,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-body {
+    height: 700px;
+    background-size: cover;
+    background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(local-source/netflix_home_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
 .navbar {
     height: 42px;
     padding: 24px 32px 24px 32px;
@@ -15,7 +23,7 @@
 }
 
 .logo {
-    height: 48px;
+    height: 50px;
 }
 
 .btn-signin {
@@ -27,4 +35,71 @@
     color: white;
     font-weight: 600;
     background-color: #E50914;
+}
+
+.main-content {
+    height: 610px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 16px;
+}
+
+.main-titles {
+    text-align: center;
+}
+
+.head-title {
+    font-size: 3em;
+}
+
+.under-title {
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.third-title {
+    margin-top: 24px;
+}
+
+.input {
+    height: 36px;
+    width: 342px;
+    margin-top: 18px;
+    padding: 8px 16px 8px 16px;
+    background-color: rgba(30, 26, 26, 0.9);
+    border: 0.5px solid rgb(187, 184, 184);
+    color: white;
+    border-radius: 5px;
+    filter: opacity(80%);
+    text-align: initial;
+}
+
+input::placeholder {
+    font-size: 15px;
+    color: #efe9e9;
+}
+
+.btn-emailadd {
+    width: 207px;
+    height: 53px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: rgb(229, 9, 20);
+    position: relative;
+    top: 3px;
+    left: 2px;
+    
+}
+
+@media (max-width:586px) {
+    .btn-emailadd {
+        margin-top: 5px;
+    }
 }
