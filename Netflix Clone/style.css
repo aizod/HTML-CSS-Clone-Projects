@@ -11,7 +11,7 @@
     background-size: cover;
     background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(local-source/netflix_home_image.jpg);
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .navbar {
@@ -103,3 +103,63 @@ input::placeholder {
         margin-top: 5px;
     }
 }
+
+ /* .................... Section: Second ........................... */
+
+.second-body {
+    height: 589px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-color: black;
+    border-top: 9px solid #232323;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.second-body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.text-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+    bottom: 9px;
+}
+
+.secondHtitle {
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    font-size: 45px;
+}
+
+.secondptext {
+    margin-top: 16px;
+    color: white;
+    font-size: 22px;
+}
+
+.img-col {
+    transform: scale(0.9);
+    position: relative;
+    left: 30px;
+    bottom: 9px;
+    z-index: 2;
+}
+
+.vid-col {
+    position: absolute;
+    right: 115px;
+    top: 840px;
+    z-index: 1;
+
+}
+
+/* .................... Section: Third ........................... */
