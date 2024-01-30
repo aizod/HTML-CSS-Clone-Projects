@@ -163,3 +163,119 @@ input::placeholder {
 }
 
 /* .................... Section: Third ........................... */
+
+.third-body {
+    width: 100%;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-color: black;
+    border-top: 9px solid #232323;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.third-body-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.third-imgcol {
+    transform: scale(0.9);
+}
+
+.third-textcol {
+    color: white;
+}
+
+.thirdHtitle {
+    font-weight: 900;
+    font-size: 43px;
+}
+
+.thirdptext {
+    margin-top: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.upperbanner {
+    width: 350px;
+    height: 88px;
+    padding: 8px 12px 8px 12px;
+    border: 2px solid grey;
+    border-radius: 13px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 161px;
+    top:1600px;
+}
+
+.gif {
+    position: absolute;
+    left: 280px;
+    transform: scale(0.5);
+}
+
+.cover {
+    transform: scale(0.4);
+    position: absolute;
+    bottom: -50px;
+    left: -33px;
+}
+
+.upperheadings {
+    position: absolute;
+    left: 90px;
+}
+
+.u1 {
+    font-size: 16px;
+}
+
+.p1 {
+    font-size: 14px;
+    color: #0071eb;
+}
+
+/* .................... Section: Fourth ........................... */
+
+.fourth-body {
+    background-color: black;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    border-top: 9px solid #232323;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-body-container {
+    width: 421px;
+    height: 254px;
+    margin-left: 184px;
+    margin-right: 184px;
+}
+
+.fourth-body-titles {
+    color: white;
+}
+
+.f4 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.p4 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
