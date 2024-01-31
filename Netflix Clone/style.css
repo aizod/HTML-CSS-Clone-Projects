@@ -147,6 +147,10 @@ input::placeholder {
 }
 
 .img-col {
+    position: relative;
+}
+
+.img-col img {
     transform: scale(0.9);
     position: relative;
     left: 30px;
@@ -154,10 +158,10 @@ input::placeholder {
     z-index: 2;
 }
 
-.vid-col {
+.img-col video {
     position: absolute;
-    right: 115px;
-    top: 840px;
+    right: 83px;
+    top: 82px;
     z-index: 1;
 
 }
@@ -184,6 +188,7 @@ input::placeholder {
 
 .third-imgcol {
     transform: scale(0.9);
+    position: relative
 }
 
 .third-textcol {
@@ -214,8 +219,8 @@ input::placeholder {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 161px;
-    top:1600px;
+    bottom: 33px;
+    left: 128px;
 }
 
 .gif {
