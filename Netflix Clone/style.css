@@ -284,3 +284,233 @@ input::placeholder {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+/* .................... Section: Fifth ........................... */
+
+.fifth-body {
+    background-color: black;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    border-top: 9px solid #232323;
+    box-sizing: border-box;
+}
+
+.fifth-body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.fifth-imgcol {
+    transform: scale(0.9);
+}
+
+.fifth-textcol {
+    color: white;
+}
+
+.fifthHtitle {
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.fifthptext {
+    margin-top: 16px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+/* .................... Section: FAQ ........................... */
+
+.faq {
+    background-color: black;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    border-top: 9px solid #232323;
+    box-sizing: border-box;
+    color: white;
+}
+
+.faq h1 {
+    text-align: center;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.row1 {
+    height: 72px;
+    width: 93%;
+    background-color: #2b2929;
+    color: white;
+    text-align: left;
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 8px;
+    border: none;
+    font-size: 22px;
+}
+
+.row2 {
+    height: 72px;
+    width: 93%;
+    background-color: #2b2929;
+    color: white;
+    text-align: left;
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 8px;
+    border: none;
+    font-size: 22px;
+}
+
+.row3 {
+    height: 72px;
+    width: 93%;
+    background-color: #2b2929;
+    color: white;
+    text-align: left;
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 8px;
+    border: none;
+    font-size: 22px;
+}
+
+.row4 {
+    height: 72px;
+    width: 93%;
+    background-color: #2b2929;
+    color: white;
+    text-align: left;
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 8px;
+    border: none;
+    font-size: 22px;
+}
+
+.row5 {
+    height: 72px;
+    width: 93%;
+    background-color: #2b2929;
+    color: white;
+    text-align: left;
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 8px;
+    border: none;
+    font-size: 22px;
+}
+
+.row6 {
+    height: 72px;
+    width: 93%;
+    background-color: #2b2929;
+    color: white;
+    text-align: left;
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 8px;
+    border: none;
+    font-size: 22px;
+}
+
+.faq .rows button::after {
+    content:'+';
+    float: right;
+    font-size: 22px;
+}
+
+.faq .rows button:hover {
+    background-color: #414141;
+    cursor: pointer;
+}
+
+.input2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .................... Section: Footer ........................... */
+
+.footer-sec {
+    background-color: black;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    border-top: 9px solid #232323;
+    box-sizing: border-box;
+    color: white;
+}
+
+.footer-container {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #b6b6b6;
+  }
+
+ul li {
+    margin: 16px 0px 12px;
+}
+
+ul p {
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.f-row1 select {
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+
+.f-row2 {
+    margin-top: 32px;
+}
+
+.f-row3 {
+    margin-top: 32px;
+}
+
+.f-row4 {
+    margin-top: 32px;
+}
+
+.lang-select {
+    width: 82%;
+    height: 32px;
+    padding: 6px 36px 6px 36px;
+    color: white;
+    border: 1px solid #b6b6b6;
+    border-radius: 7px;
+    background-color: rgba(30, 26, 26, 0.9);
+}
+
+ul:hover{
+    cursor: pointer;
+}
+
+/* .................... Extra Features ........................... */
+
+.btn-emailadd:hover {
+    cursor: pointer;
+    background-color: rgb(194, 0, 10)
+}
+
+.btn-signin:hover{
+    background-color: rgb(194, 0, 10)
+}
